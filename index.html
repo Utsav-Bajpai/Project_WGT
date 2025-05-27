@@ -212,7 +212,7 @@
         <div class="col-md-3 col-sm-6 text-center" data-aos="fade-left" data-aos-duration="1600">
           <div class="home3-counter-box home2-hadding hadding-p white-hadding">
             <img src="assets/img/image/home3-fact-icon-3.png" alt="">
-            <h1><span class="counter-up">30</span> +</h1>
+            <h1><span class="counter-up">10</span> +</h1>
             <p>Yeras of Experience</p>
           </div>
         </div>
@@ -220,7 +220,7 @@
         <div class="col-md-3 col-sm-6 text-center" data-aos="fade-left" data-aos-duration="2000">
           <div class="home3-counter-box home2-hadding hadding-p white-hadding">
             <img src="assets/img/image/home3-fact-icon-4.png" alt="">
-            <h1><span class="counter-up">45</span> +</h1>
+            <h1><span class="counter-up">25</span> +</h1>
             <p>Professional Team</p>
           </div>
         </div>
@@ -1238,6 +1238,38 @@
   <script src="assets/js/plugins/jquery.countup.js"></script>
   <script src="assets/js/plugins/owl.carousel.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- Success Popup -->
+  <div id="successPopup" class="popup-overlay">
+    <div class="popup-box">
+      <svg viewBox="0 0 52 52" width="80" height="80">
+        <circle cx="26" cy="26" r="25" fill="none" stroke="#e59000" stroke-width="2" />
+        <path fill="none" stroke="#e59000" stroke-width="5" d="M14 27 l8 8 l16 -16" stroke-linecap="round"
+          stroke-linejoin="round">
+          <animate attributeName="stroke-dasharray" from="0,50" to="50,0" dur="0.5s" fill="freeze" />
+        </path>
+      </svg>
+      <h3>Submission Successful</h3>
+      <p>We’ll contact you shortly.</p>
+      <button onclick="closePopup('successPopup')">Close</button>
+    </div>
+  </div>
+
+  <!-- Error Popup -->
+  <div id="errorPopup" class="popup-overlay">
+    <div class="popup-box">
+      <svg viewBox="0 0 52 52" width="80" height="80">
+        <circle cx="26" cy="26" r="25" fill="none" stroke="red" stroke-width="2" />
+        <path fill="none" stroke="red" stroke-width="5" d="M16 16 l20 20 M36 16 l-20 20" stroke-linecap="round"
+          stroke-linejoin="round">
+          <animate attributeName="stroke-dasharray" from="0,50" to="50,0" dur="0.5s" fill="freeze" />
+        </path>
+      </svg>
+      <h3>Submission Failed</h3>
+      <p>Something went wrong. Please try again.</p>
+      <button onclick="closePopup('errorPopup')">Close</button>
+    </div>
+  </div>
 
 </body>
 

@@ -1385,7 +1385,7 @@ ul.theme-mega-menu li.mega-menu {
 }
 
 .hadding h1 {
-  color: #E59000;
+  color: #000000;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -2246,7 +2246,7 @@ body {
 .footer-contact-p p {
   font-weight: 500;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255);
   line-height: 26px;
 }
 

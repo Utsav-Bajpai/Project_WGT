@@ -32,95 +32,23 @@
 </head>
 
 <body>
-
-
   <div id="preloader">
     <div id="loader"></div>
   </div>
 
   <!--=====progress START=======-->
-
   <div class="paginacontainer">
-
-    <div class="progress-wrap">
+   <div class="progress-wrap">
       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
     </div>
-
   </div>
+ <!--=====progress END=======-->
 
-  <!--=====progress END=======-->
+   <?php include 'header.php'; ?>
 
-  <!--=====HEADER START=======-->
-  <header>
-    <div class="header-area-home1 header-area-home3 d-none d-lg-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="header-elements">
-              <div class="site-logo">
-                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-              </div>
-              <div class="main-menu-ex home2-menu">
-                <ul>
-                  <li><a href="index.html">Home </a>
-                  <li><a href="about.html">About Us</a>
-                  <li><a href="service.html">Service</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-                <li class="d-lg-none d-block"><a href="#"><img src="assets/img/icons/phone.svg" alt="">935-561-3693</a>
-                </li>
-                </ul>
-              </div>
-              <div class="cta-btn d-none d-lg-block btn-after button action-btn home1-header-btn">
-                <a href="tel:658-593-8295"> <img src="assets/img/icons/phone.svg" alt="">935-561-3693</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!--=====HEADER END=======-->
-
-  <!--=====Mobile header start=======-->
-  <div class="mobile-header mobile-header-4 d-block d-lg-none ">
-    <div class="container-fluid">
-      <div class="col-12">
-        <div class="mobile-header-elements">
-          <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-          </div>
-          <div class="mobile-nav-icon">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="mobile-sidebar">
-    <div class="menu-close">
-      <i class="fa-solid fa-xmark"></i>
-    </div>
-    <div class="mobile-nav">
-      <ul class="mobile-nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="service.html">Service</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="tel:658-593-8295"> <img src="assets/img/icons/phone.svg" alt="">658-593-8295</a></li>
-      </ul>
-
-    </div>
-  </div>
-  <!--=====Mobile header end=======-->
-
-
-  <!--============= pages-hero-area ============-->
+   <!--============= pages-hero-area ============-->
   <div class="inner-page-hero-area _relative">
     <div class="container">
       <div class="row">
@@ -135,85 +63,56 @@
     <!-- <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-bottom-right _absolute"> -->
     <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-bottom-left _absolute">
   </div>
-
   <!--============= pages-hero-area ============-->
 
-  <!--============= about-page-sec-about-start ============-->
-
-  <div class="about-page-about-sec sec-padding">
+  <!--=====about-start=======-->
+  <div class="home2-about sec-padding">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6">
-          <div class="about-page-img-all">
-            <div class="about-page-about-img1 img-border img100">
-              <img src="assets/img/image/about-page-img-1.png" alt="">
-            </div>
-            <div class="space20"></div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="about-page-img-2 img-border img100">
-                  <img src="assets/img/image/about-page-img-2.png" alt="">
-                </div>
+        <div class="col-md-12 col-lg-6" data-aos="flip-left" data-aos-duration="800">
+          <div class="home2-about-img">
+            <img src="assets/img/image/About.png" alt="">
+            <div class="home2-about-text">
+              <div class="home2-about-after">
+                <p>“Transform your compliance experience with Wealth Guard Tax. 10+ years of experience in tax, business
+                  setup, and advisory solutions.”</p>
               </div>
-
-              <div class="col-md-6">
-                <div class="about-page-img-3 img-border img100 space-sm-30">
-                  <img src="assets/img/image/about-page-img-3.png" alt="">
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class="about-haddings">
-            <div class="hadding hadding-p space-sm-30">
-              <span class="span">Who we Are</span>
-              <h1>We Help File GST, ITRs and <br> Register Businesses Across India <br> <span>Individuals &
-                  Startups</span></h1>
-              <p>We are a fully digital platform offering PAN-India tax filing, business registration, and compliance
-                services — tailored for Indian individuals and businesses.</p>
-              <div class="space20"></div>
-              <p>
-                Please feel free to browse our website to see the tax services we offer as well as the many helpful
-                resources we provide.</p>
-            </div>
-
-            <div class="check-list-all">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="chek-list">
-                    <p><img src="assets/img/icons/check.svg" alt=""> Income Tax Return</p>
-                  </div>
-                  <div class="space20"></div>
-                  <div class="chek-list">
-                    <p><img src="assets/img/icons/check.svg" alt=""> GST Compilance (Registration & Filing)</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="chek-list">
-                    <p><img src="assets/img/icons/check.svg" alt=""> Company & MSME Registration</p>
-                  </div>
-                  <div class="space20"></div>
-                  <div class="chek-list">
-                    <p><img src="assets/img/icons/check.svg" alt=""> Digital Signature Registration</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="header-btn-1 button btn-after home1-button">
-              <a href="#">Explore More About Us</a>
-            </div>
+        <div class="col-md-12 col-lg-6" data-aos="fade-left" data-aos-duration="800">
+          <div class="home2-hadding home2-hadding-p hadding-span home2-padding-after">
+            <span class="span">Why Choose Us</span>
+            <h1>Trust Us To Put <span class="after">Your</span> <br> Compliance On Track.</h1>
+            <p>Wealth Guard Tax offers intuitive services that ensure peace of mind for all your financial and
+              regulatory needs. Reliable, affordable, and timely.</p>
+          </div>
+          <div class="space30"></div>
+          <div class="home2-about-list">
+            <ul>
+              <li class="orange-icon">
+                <img src="assets/img/icons/chek-cercle-orange-bg.svg" alt="">Planing your Future Better
+              </li>
+              <li>
+                <img src="assets/img/icons/chek-cercle-orange-bg.svg" alt="">Seamless GST Compliance
+              </li>
+              <li>
+                <img src="assets/img/icons/chek-cercle-orange-bg.svg" alt="">Affordable Pricing for All
+              </li>
+              <li>
+                <img src="assets/img/icons/chek-cercle-orange-bg.svg" alt="">Digital and Secure Services
+              </li>
+            </ul>
+          </div>
+          <div class="space10"></div>
+          <div class="home2-btn">
+            <a href="about.php">More About Us<i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
-
-  <!--============= about-page-sec-about-end ============-->
+  <!--=====about-end=======-->
 
   <!--============= about-page-sec-what-we-do-start ============-->
   <div class="what-we-do sec-padding">
@@ -261,7 +160,7 @@
         </div>
         <div class="col-md-7">
           <div class="about-page-img img-border space-sm-30">
-            <img src="assets/img/image/about-what-img.png" alt="">
+            <img src="assets/img/image/about-client.png" alt="">
           </div>
         </div>
       </div>
@@ -269,11 +168,10 @@
     <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-top-right _absolute">
     <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-bottom-left _absolute">
   </div>
-
   <!--============= about-page-sec-what-we-do-end ============-->
 
   <!--============= about-page-why-choose-start ============-->
-  <div class="about-choose sec-padding">
+  <!-- <div class="about-choose sec-padding">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
@@ -335,11 +233,75 @@
         </div>
       </div>
     </div>
-  </div>
-
+  </div> -->
   <!--============= about-page-why-choose-end ============-->
 
-  <!--============= our-vision-start ============-->
+
+
+  <!--=====contact-start=======-->
+  <div class="contact sec-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6" data-aos-duration="800" data-aos="flip-right">
+          <div class="contact-img"><img src="assets/img/image/contact-img.png" alt=""></div>
+        </div>
+        <div class="col-md-6 space-sm-30" data-aos="fade-left" data-aos-duration="1000">
+          <div class="home2-hadding home2-hadding-p home2-padding-after hadding-span">
+            <span class="span">
+              Contact Us
+            </span>
+            <h1>Book Your Free 15-min Call</span> <br> With Wealth Guard Tax Experts Today.</h1>
+            <!-- <p>Working with a life coach is like hanging out with a really honest friend who to the believes in your
+              dreams, always wants the best for you, and is willing to ask you for hard questions and call you on your
+              bullshit.</p> -->
+          </div>
+
+          <form method="post"
+            action="https://script.google.com/macros/s/AKfycbwT-GdhGoUOMnmG6VXoeD5OjA7GpYSeehSnheBSqmX43JGg-xSG8sBR__gm7znrIsZs/exec"
+            name="contact_form">
+            <div class="contact-form">
+
+              <div class="contact-from-input">
+                <input type="text" name="Name" placeholder="Name">
+              </div>
+
+              <div class="contact-from-input">
+                <input type="text" name="Email" placeholder="Email">
+              </div>
+
+              <div class="contact-from-input">
+                <input type="number" name="Phone" placeholder="Phone">
+              </div>
+
+              <div class="contact-from-input">
+                <!-- Dropdown for Service -->
+                <select name="Service">
+                  <option value="">Select Service</option>
+                  <option value="Income tax Return">Income tax Return</option>
+                  <option value="GST Compliance (Registration &Fillings)">GST Compliance (Registration &Fillings)
+                  </option>
+                  <option value="Company Registration">Company Registration</option>
+                  <option value="Digital Signature Certificate">Digital Signature Certificate</option>
+                  <option value="MSME Registration">MSME Registration</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+
+              <div class="space20"></div>
+
+              <div class="home2-btn">
+                <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+
+            </div>
+          </form>
+          <script src="Google Sheet.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=====contact-end=======-->
+    <!--============= our-vision-start ============-->
   <div class="our-vision sec-padding">
     <div class="container">
       <div class="row">
@@ -413,179 +375,9 @@
     <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-top-right _absolute">
     <img src="assets/img/shapes/shape-1.svg" alt="" class="shape-bottom-left _absolute">
   </div>
-
-  <!--============= our-vistion-end ============-->
-
-  <!--=====contact-start=======-->
-
-  <div class="contact sec-padding">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6" data-aos-duration="800" data-aos="flip-right">
-          <div class="contact-img"><img src="assets/img/image/contact-img.png" alt=""></div>
-        </div>
-        <div class="col-md-6 space-sm-30" data-aos="fade-left" data-aos-duration="1000">
-          <div class="home2-hadding home2-hadding-p home2-padding-after hadding-span">
-            <span class="span">
-              Contact Us
-            </span>
-            <h1>Book Your Free 15-min Call</span> <br> With Wealth Guard Tax Experts Today.</h1>
-            <!-- <p>Working with a life coach is like hanging out with a really honest friend who to the believes in your
-              dreams, always wants the best for you, and is willing to ask you for hard questions and call you on your
-              bullshit.</p> -->
-          </div>
-
-          <form method="post"
-            action="https://script.google.com/macros/s/AKfycbwT-GdhGoUOMnmG6VXoeD5OjA7GpYSeehSnheBSqmX43JGg-xSG8sBR__gm7znrIsZs/exec"
-            name="contact_form">
-            <div class="contact-form">
-
-              <div class="contact-from-input">
-                <input type="text" name="Name" placeholder="Name">
-              </div>
-
-              <div class="contact-from-input">
-                <input type="text" name="Email" placeholder="Email">
-              </div>
-
-              <div class="contact-from-input">
-                <input type="number" name="Phone" placeholder="Phone">
-              </div>
-
-              <div class="contact-from-input">
-                <!-- Dropdown for Service -->
-                <select name="Service">
-                  <option value="">Select Service</option>
-                  <option value="Income tax Return">Income tax Return</option>
-                  <option value="GST Compliance (Registration &Fillings)">GST Compliance (Registration &Fillings)
-                  </option>
-                  <option value="Company Registration">Company Registration</option>
-                  <option value="Digital Signature Certificate">Digital Signature Certificate</option>
-                  <option value="MSME Registration">MSME Registration</option>
-                  <option value="Others">Others</option>
-                </select>
-              </div>
-
-              <div class="space20"></div>
-
-              <div class="home2-btn">
-                <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
-              </div>
-
-            </div>
-          </form>
-          <script src="Google Sheet.js"></script>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--=====contact-end=======-->
-
-
-
-  <!--=====footer-start=======-->
-  <div class="footer sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="footer-hadding">
-            <a href="index.html"><img src="assets/img/logo/footer-logo.png" alt=""></a>
-            <p>At Wealth Guard Tax, we don’t just file taxes. <br>We empower individuals & startups<br> with clarity,
-              speed, and trust.</p>
-            <div class="footer-shere">
-              <ul>
-                <li><a href="https://www.facebook.com/share/19n1EHPk5J/"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com/wealthguardtax?igsh=b21uZDQyZWZmZzV4"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/wealth-guard-tax/"><i class="fa-brands fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h4>Information</h4>
-            <ul>
-              <li><a href="index.html">Home </a>
-              <li><a href="about.html">About Us</a>
-              <li><a href="service.html">Service</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home </a>
-              <li><a href="about.html">About Us</a>
-              <li><a href="service.html">Service</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="footer-menu">
-            <h4>Contact Us</h4>
-            <div class="foter-contact">
-              <div class="footer-contact-icon">
-                <img src="assets/img/icons/footer-icon-1.svg" alt="">
-              </div>
-              <div class="footer-contact-p">
-                <p>WGT Office, D-9, Sector 3, Noida, Uttar Pradesh 201301</p>
-              </div>
-            </div>
-
-            <div class="foter-contact">
-              <div class="footer-contact-icon">
-                <img src="assets/img/icons/footer-icon-2.svg" alt="">
-              </div>
-              <div class="footer-contact-p">
-                <a href="tel:935-561-3693">
-                  <p>935-561-3693</p>
-                </a>
-              </div>
-            </div>
-
-            <div class="foter-contact">
-              <div class="footer-contact-icon">
-                <img src="assets/img/icons/footer-icon-3.svg" alt="">
-              </div>
-              <div class="footer-contact-p">
-                <a href="mailto:contact@wealthguardtax.in">
-                  <p>contact@wealthguardtax.in</p>
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="fonter-end">
-    <div class="contaier">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div class="footer-end-p">
-            <a href="#">© Copyright 2025 Wealth Guard Tax All rights reserved.</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--=====footer-end=======-->
-
-
-
-
+   <!--============= our-vistion-end ============-->
+   
+  <?php include 'footer.php'; ?>
 
   <!--=====JS=======-->
   <script src="assets/js/plugins/bootstrap.min.js"></script>
